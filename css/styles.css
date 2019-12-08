@@ -1,9 +1,12 @@
+/* -------------------- SELECTOR CSS -------------------- */
+
 body {
     margin: 0;
     text-align: center;
-    font-family: 'Merriweather', serif;
+    font-family: 'Nunito', serif;
     font-size: 1.2rem;
     color: #40514E;
+    line-height: 2;
 }
 
 h1 {
@@ -13,13 +16,11 @@ h1 {
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
     color: #66BFBF;
     padding-bottom: 10px;
 }
 
 h3 {
-    font-family: 'Montserrat', sans-serif;
     margin-top: 3%;
 }
 
@@ -30,9 +31,7 @@ hr {
     margin: 100px auto;
 }
 
-p {
-    line-height: 2;
-}
+/* -------------------- CLASS CSS -------------------- */
 
 .top-container {
     background-color: #dff6f0;
@@ -45,7 +44,7 @@ p {
 }
 
 .bottom-container {
-    background-color: #66BFBF;
+    background-color: #dff6f0;
     padding: 50px 0 10px;
 }
 
@@ -58,87 +57,83 @@ p {
     width: 10%;
     position: absolute;
     top: 10%;
-    left: 65%;
+    left: 70%;
 }
 
 .mountain {
-    width: 50%;
+    width: 40%;
     position: relative;
-    top: 3px;
+    top: 13px;
 }
 
 .bottom-cloud {
     width: 10%;
     position: absolute;
     top: 30%;
-    left: 25%;
+    left: 20%;
 }
 
 .whale-image {
     width: 10%;
     background-color: #EAF6F6;
-}
-
-.round {
     border-radius: 100%;
 }
 
 .skill-row {
-    width: 50%;
+    width: 60%;
     margin: 50px auto 100px auto;
     text-align: left;
     line-height: 2;
 }
 
 .computer-image {
-    width: 20%;
+    width: 15%;
     float: left;
     margin-right: 30px;
+    border-radius: 100%;
 }
 
 .mobile-image {
-    width: 20%;
+    width: 15%;
     float: right;
     margin-left: 30px;
 }
 
 .btn {
-	background: linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
-	background-color: #11cdd4;
-	border-radius: 8px;
-	display: inline-block;
-	cursor: pointer;
-	color: #ffffff;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 20px;
-	padding: 16px 31px;
+    background-color: #66BFBF;
+    border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 16px 31px;
     text-decoration: none;
     margin-top: 2%;
 }
 
 .btn:hover {
-	background: linear-gradient(to bottom, #30e3cb 5%, #2bc4ad 100%);
-	background-color: #11999e;
+    background-color: #40514E;
 }
 
 .btn:active {
-	position:relative;
-	top:1px;
-}
-
-.footer-link {
-    color: #11999E;
-    font-family: 'Montserrat', sans-serif;
-    margin: 10px 20px;
-    text-decoration: none;
-}
-
-.footer-link:hover {
-    color: #EAF6F6;
+    position: relative;
+    top: 1px;
 }
 
 .credit {
     font-size: 1rem;
-    color: #EAF6F6;
+    color: #40514E;
     padding: 20px 0;
+}
+
+.footer-link {
+    color: #66BFBF;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+/* -------------------- PSEUDO CLASS CSS -------------------- */
+
+.footer-link:hover {
+    color: #40514E;
 }
